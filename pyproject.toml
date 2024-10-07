@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fbmc"
+version = "0.1.0"
+description = ""
+authors = ["Lars <lars.nordstrom@svk.se>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandapower = {extras = ["all"], version = "^2.14.6"}
+ipykernel = "^6.29.3"
+numba = "^0.59.0"
+python-igraph = "^0.11.4"
+matplotlib = "^3.8.3"
+numpy = "^1.26.4"
+openpyxl = "^3.1.2"
+networkx = "^3.2.1"
+nbformat = "^5.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
